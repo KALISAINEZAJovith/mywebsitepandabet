@@ -1,0 +1,130 @@
+*{  border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: rgb(73, 151, 145);
+    font-size: #666;
+    font-weight: bold;
+}
+ 
+.nav{
+    background-color: rgb(0, 235, 235);
+    overflow: auto;
+    min-height: 50%;
+    display: flex;
+
+}
+ .back{
+    padding-left: 1ch;
+    font-size: x-large;
+ }
+ .back a{
+    color: rgb(175, 137, 218);
+ }
+
+ .ul{
+    font-size: x-large;
+    padding-left: 3ch;
+    color: black;
+ }
+ 
+ .login_form{
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 235, 235);
+    padding: 0 40px;
+    border-radius: 12px;
+ }
+ .div1{
+    display: block;
+    font-size: large;
+    text-align: center;
+    padding: 10px 0 80px 0;
+    border-bottom: 1px solid silver;
+    outline: none;
+}
+
+.div1 a{
+    text-decoration: none;
+    padding: 9px 40px;
+    color: rgb(81, 5, 168);
+    border-radius: 25px;
+    display: block;
+    float: left;
+}
+.div1 a:hover{
+   text-decoration: underline  solid rgb(81, 5, 168) ;
+}
+
+.text_field{
+    position: relative;
+    border-radius: 2px solid #adadad;
+    margin:30px 0;
+}
+
+.text_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    background-color: none;
+}
+.text_field label{
+    color: #666;
+    top: 50%;
+    left: 5px;
+}
+
+.forget{
+    margin: -30px 0 20px 0;
+    color: #666;
+    cursor: pointer;
+}
+
+.forget:hover{
+    text-decoration: underline solid #666;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: #aa9dda;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #aa9dda;
+    transition: .3s;
+}
+
+.signup_link{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+
+.signup_link a{
+    color: rgb(81, 5, 168);
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline solid rgb(81, 5, 168);
+}
+
+
+
+
